@@ -61,6 +61,11 @@ function Header() {
                   Services
                 </NavLink>
               </li>
+              {/* <li className="nav-item">
+                <NavLink to="/pricing" className="nav-link" activeclassname="active" onClick={toggleMobileMenu}>
+                  Pricing
+                </NavLink>
+              </li> */}
               {/* Additional menu items */}
               <li className="nav-item">
                 <NavLink to="/contact-us" className="nav-link" activeclassname="active" onClick={toggleMobileMenu}>

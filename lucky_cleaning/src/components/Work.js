@@ -16,7 +16,6 @@ function Work(){
 		  user_service: ''
 	  });
 	  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-	  const [isSubmitting, setIsSubmitting] = useState(false);
   
   
 	  const validateForm = () => {
@@ -79,7 +78,6 @@ function Work(){
 				  .then(
 					  (result) => {
 						  setIsFormSubmitted(true);
-						  setIsSubmitting(true);  
 						  console.log(result.text);
 						  // Set a timeout to hide the success message after 3000 milliseconds (3 seconds)
 						  setTimeout(() => {
@@ -92,7 +90,6 @@ function Work(){
 					  }
 				  )
 				  .finally(() => {
-					  setIsSubmitting(false); // Set loading state back to false
 					  // Reset the form values
 					  form.current.reset();
 					  // Reset the formErrors state

@@ -1,14 +1,4 @@
 import { Link } from "react-router-dom";
-import image_1 from '../style/images/image_1.jpg';
-import image_2 from '../style/images/image_2.jpg'
-
-var sectionStyle = {
-    backgroundImage: `url(${image_1})`
-};
-
-var sectionStyle2 = {
-    backgroundImage: `url(${image_2})`
-  };
 
 function Footer() {
     return (

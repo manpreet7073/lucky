@@ -8674,6 +8674,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   right: 0;
   z-index: 3;
   padding: 0;
+  background: #0000003d;
 }
 /* @media (min-width:320px)  {
   .
@@ -8696,10 +8697,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-      background: #fff;
       position: relative;
       top: 0;
       padding: 10px 15px;
+      background: #0000003d;
  }
 }
 .ftco-navbar-light .navbar-brand {
