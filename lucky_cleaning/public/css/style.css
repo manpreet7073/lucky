@@ -8694,6 +8694,30 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 @media (min-width:1281px) {
 
 } */
+@media only screen and (min-device-width: 320px) and (max-device-width:480px){
+  .collapse-left {
+    left: 30px;
+    position: relative;
+
+  }
+}
+@media only screen and (min-device-width: 820px) and (max-device-width:1180px){
+  .collapse-left {
+    left: 10px;
+    position: relative;
+
+  }
+  .collapse-button{
+    padding: 0;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width:1199px){
+  .collapse-left {
+    left: 50px;
+    position: relative;
+
+  }
+}
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
