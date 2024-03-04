@@ -6,7 +6,8 @@ const urls = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
   { url: '/about-us', changefreq: 'weekly', priority: 0.8 }, // Added About page
   { url: '/services', changefreq: 'weekly', priority: 0.8 }, // Added Services page
-  { url: '/contact-us', changefreq: 'weekly', priority: 0.8 }, // Added contact-us page
+  { url: '/contact-us', changefreq: 'weekly', priority: 0.8 },// Added contact-us page
+  { url: '/404', changefreq: 'weekly', priority: 0.8 }, // Added 404 page
   // Add more URLs here if needed
 ];
 
