@@ -1,3 +1,8 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /private/
+Allow: /
+Allow: /about-us
+Allow: /services
+Allow: /contact-us
+Allow: /404
