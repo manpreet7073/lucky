@@ -10,10 +10,10 @@ import NotFoundPage from "./components/NotFoundPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <>
-    
     <Header></Header>
       <Routes>
         <Route path="/" exact element={<Home />} />

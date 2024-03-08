@@ -1,13 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import about from '../style/images/hill.jpg'
 import about_bg from '../style/images/cont.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 
+
 // import TeamMember from './TeamMember'; // Assume you have a TeamMember component
 
 const AboutPage = () => {
+  useEffect(() => {
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Discover the best cleaning services in Australia with Cleaning with Lucky! Our dedicated team provides top-notch residential and commercial cleaning solutions tailored to your needs. From deep cleaning to regular maintenance, we ensure a sparkling clean environment every time. Contact us today for a spotless space!';
+
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      // Cleanup: Remove the dynamically added meta tag when the component unmounts
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
   const [isExperiencedCollapsed, setIsExperiencedCollapsed] = useState(true);
   const [isCustomizedCollapsed, setIsCustomizedCollapsed] = useState(true);
   const [isEnvironmentallyCollapsed, setIsEnvironmentallyCollapsed] = useState(true);

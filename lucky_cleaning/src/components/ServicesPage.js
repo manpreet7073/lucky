@@ -1,8 +1,21 @@
+import React, { useEffect } from 'react';
 import bg_2 from '../style/images/hill.jpg'
 const sectionStyle = {
   backgroundImage: `url(${bg_2})`
 };
 function Servicepage(){
+  useEffect(() => {
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Australia best cleaning company Cleaning With Lucky';
+
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      // Cleanup: Remove the dynamically added meta tag when the component unmounts
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
     return (
         <>
           <section className="hero-wrap hero-wrap-2 bg-st" style={sectionStyle}>
