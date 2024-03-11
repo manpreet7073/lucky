@@ -3,7 +3,7 @@ const { createReadStream, createWriteStream } = require('fs');
 
 // Define the URLs for the sitemap
 const urls = [
-  { url: '/', changefreq: 'daily', priority: 1.0 },
+  { url: '', changefreq: 'daily', priority: 1.0 },
   { url: '/about-us', changefreq: 'weekly', priority: 0.8 },
   { url: '/services', changefreq: 'weekly', priority: 0.8 },
   { url: '/contact-us', changefreq: 'weekly', priority: 0.8 },
