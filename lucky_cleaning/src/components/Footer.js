@@ -40,6 +40,7 @@ function Footer() {
               <ul>
                 {/* <li><span className="icon fa fa-map-marker"></span><span className="text">57 Bruce St Rye, Victoria (Australia) 3941</span></li> */}
                 <li><a href="tel:0424-654-233"><span className="icon fa fa-phone"></span><span className="text">0424 654 233</span></a></li>
+                <li><a href="tel:0430-378-670"><span className="icon fa fa-phone"></span><span className="text">0430 378 670</span></a></li>
                 <li><a href="mailto:cleaningwithlucky@gmail.com"><span className="icon fa fa-paper-plane"></span><span className="text">cleaningwithlucky@gmail.com</span></a></li>
               </ul>
             </div>

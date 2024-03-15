@@ -15,7 +15,7 @@ function Header() {
 			<div className="container">
 				<div className="row justify-content-between">
 						<div className="col-12 col-md d-flex align-items-center">
-							<p className="mb-0 phone"><span className="mailus">Phone no:</span> <a href="tel:0424-654-233">0424 654 233</a> or <span className="mailus">email us:</span> <a href="mailto:cleaningwithlucky@gmail.com">cleaningwithlucky@gmail.com</a></p>
+							<p className="mb-0 phone"><span className="mailus">Phone no:</span> <a href="tel:0424-654-233">0424 654 233</a> | <a href="tel:0430-378-670">0430 378 670</a>  or <span className="mailus">email us:</span> <a href="mailto:cleaningwithlucky@gmail.com">cleaningwithlucky@gmail.com</a></p>
 						</div>
 						<div className="col-12 col-md d-flex justify-content-md-end">
 							<div className="social-media">

@@ -138,7 +138,8 @@ function Contact() {
                                             <div className="text">
                                                 <p>
                                                     <span>Phone:</span>{' '}
-                                                    <a href="tel://0424 654 233">0424 654 233</a>
+                                                    <a href="tel://0424-654-233">0424 654 233</a><br />
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel://0430-378-670">0430 378 670</a>
                                                 </p>
                                             </div>
                                         </div>
