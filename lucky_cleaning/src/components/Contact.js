@@ -124,8 +124,7 @@ function Contact() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    <span>Address:</span> 198 West 21th Street, Suite 721 New York NY
-                                                    10016
+                                                    <span>Address:</span> 3 Dunsmuir drive Rosebud 3939
                                                 </p>
                                             </div>
                                         </div>
@@ -238,7 +237,7 @@ function Contact() {
                         scrolling="no"
                         marginHeight="0"
                         marginWidth="0"
-                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=57%20Bruce%20St%20Rye,%20Victoria%203941+(cleaning%20with%20lucky)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=3%20Dunsmuir%20drive%20Rosebud%203939+(cleaning%20with%20lucky)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         ></iframe>
                         </div>
                     </div>
